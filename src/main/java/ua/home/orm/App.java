@@ -27,6 +27,7 @@ public class App
     public static void main( String[] args ) throws Exception{
        EntityManagerFactory mf = Persistence.createEntityManagerFactory("join");       
        EntityManager em = mf.createEntityManager();
+       
        em.getTransaction().begin();
        
        
